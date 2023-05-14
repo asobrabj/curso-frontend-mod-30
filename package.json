@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/asobrabj/curso-frontend-mod-30/issues"
   },
-  "homepage": "https://github.com/asobrabj/curso-frontend-mod-30/#readme",
+  "homepage": "https://github.com/asobrabj/curso-frontend-mod-30/webpack#readme",
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",

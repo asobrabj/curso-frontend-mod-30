@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Framework Simulator</title>
+    <title>Framework Simulator-Galeria</title>
 </head>
-
 <body>
     <div id="root">
-        <header>
+        <header id="vetoriais">
             <h1>Galeria de paisagem de campos</h1>
+
             <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                
                 <path class="wave-01" fill="#D5F5E3" fill-opacity="1" d="M0,288L15,261.3C30,235,60,181,90,176C120,171,150,
                 213,180,229.3C210,245,240,235,270,192C300,149,330,75,360,85.3C390,96,420,192,450,192C480,
                 192,510,96,540,80C570,64,600,128,630,138.7C660,149,690,107,720,85.3C750,64,780,64,810,
@@ -58,47 +56,49 @@
                 320,304,320,288,320C272,320,256,320,240,320C224,320,208,320,192,320C176,320,160,320,144,320C128,320,112,
                 320,96,320C80,320,64,320,48,320C32,320,16,320,8,320L0,320Z">
                 </path>
-                
+
             </svg>
+
         </header>
 
-            <section id="video-container" style="margin: 0 auto;">
-                <h2>Video Player</h2>
-                <div class="container ajusta">
-                    <div id="player">
-                        <video id="video" src="./assets/svg.mp4"></video>
-                        <div class="controls">
-                            <button id="btn-play">
-                                <i class="fa fa-play"></i>
-                                <i class="fa fa-pause"></i>
-                            </button>
-                            <div class="timeline">
-                                <div class="bar">
-                                    <div class="inner"></div>
-                                </div>
+        <section id="video-container" class="ajusta_video" >
+            <h2 style="text-align: center;">Video Player</h2>
+            <div class="container ajusta">
+                <div id="player">
+                    <video id="video" src="./assets/svg.mp4"></video>
+                    <div class="controls">
+                        <button id="btn-play">
+                            <i class="fa fa-play"></i>
+                            <i class="fa fa-pause"></i>
+                        </button>
+                        <div class="timeline">
+                            <div class="bar">
+                                <div class="inner"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-
-        <section id="imagens">
-            <div class="container">
-                <img src="./assets/img1.jpg" alt="img1">
-                <img src="./assets/img2.jpg" alt="img2">
-                <img src="./assets/img3.jpg" alt="img3">
-                <img src="./assets/img4.jpg" alt="img4">
-                <img src="./assets/img5.jpg" alt="img5">
-                <img src="./assets/img6.jpg" alt="img6">
-                <img src="./assets/img7.jpg" alt="img7">
-                <img src="./assets/img8.jpg" alt="img8">
-                <img src="./assets/img9.jpg" alt="img9">
-                <img src="./assets/img10.jpg" alt="img10">
-                <img src="./assets/img11.jpg" alt="img11">
-                <img src="./assets/img12.jpg" alt="img12">
             </div>
         </section>
+
+        <section id="imagens" class="ajusta_images">
+            <h2 style="padding: 20px;">Galeria de Imagens</h2>
+            <div class="container">
+                <img src="./assets/images/img1.jpg" alt="img1">
+                <img src="./assets/images/img2.jpg" alt="img2">
+                <img src="./assets/images/img3.jpg" alt="img3">
+                <img src="./assets/images/img4.jpg" alt="img4">
+                <img src="./assets/images/img5.jpg" alt="img5">
+                <img src="./assets/images/img6.jpg" alt="img6">
+                <img src="./assets/images/img7.jpg" alt="img7">
+                <img src="./assets/images/img8.jpg" alt="img8">
+                <img src="./assets/images/img9.jpg" alt="img9">
+                <img src="./assets/images/img10.jpg" alt="img10">
+                <img src="./assets/images/img11.jpg" alt="img11">
+                <img src="./assets/images/img12.jpg" alt="img12">
+            </div>
+        </section>
+
     </div>
 </body>
-
 </html>

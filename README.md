@@ -1,4 +1,4 @@
-# Framework Simulator - Media management sith CSS
+# Framework Simulator
 Estrutura básica de projetos front-end para estudos de HTML, JS, CSS / SASS. 
 
 - Flexível para você adaptar para projetos e estudos.
