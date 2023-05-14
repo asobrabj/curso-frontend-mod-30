@@ -1,0 +1,114 @@
+$color-font: #228c05;
+$color-bg-default: #33f;
+$font-default: Arial, Helvetica, sans-serif;
+
+body {
+    //background: url('../assets/background.jpg') no-repeat top center;
+    //background-size: cover;
+    font-family: $font-default;
+    margin: 0;
+}
+
+h1 {
+    color: $color-font;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    
+    img {
+        height: 190px;
+        width: auto;
+        object-fit: fill;
+        object-position: bottom;
+        border: 2px solid rgb(135, 135, 134);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        background-color: rgb(238, 238, 239);
+    
+
+        &:hover{
+            opacity: 75%;
+            border-color: rgb(245, 168, 24);
+        }
+    }
+}
+
+ .ajusta {
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+ }
+
+header{
+    width: 100vw;
+    position: relative;
+    height: 36vh;
+    overflow: hidden;
+
+    h1{
+        margin-top: 1rem;
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.waves{
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 120%;
+
+    .wave-01{
+        animation: wave1 16s ease-in-out infinite alternate;
+    }
+
+    .wave-02{
+        animation: wave2 20s ease-in-out infinite alternate;
+    }
+
+    .wave-03 {
+        animation: dash1 8s cubic-bezier(0, 1.23, 1, 3.11) infinite alternate;
+        stroke-dasharray: 180;
+        stroke: #fff;
+        stroke-width: 3px;
+    }
+}
+
+@keyframes wave1 {
+    from {
+        transform: translate(-90px);
+    }
+}
+
+@keyframes wave2 {
+    from {
+        transform: translate(-60px);
+    }
+}
+
+@keyframes wave3 {
+    from {
+        transform: translate(300px);
+    }
+}
+
+@keyframes dash1 {
+    from {
+       stroke-dashoffset: 2000;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@import 'player';
